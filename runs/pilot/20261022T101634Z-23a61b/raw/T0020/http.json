@@ -1,0 +1,37 @@
+[
+  {
+    "timestamp_utc": "2026-10-22T10:17:42.666127+00:00",
+    "status": null,
+    "elapsed_ms": 404.077,
+    "body": "",
+    "transport_error": "<urlopen error timed out>"
+  },
+  {
+    "timestamp_utc": "2026-10-22T10:17:43.180336+00:00",
+    "status": null,
+    "elapsed_ms": 414.035,
+    "body": "",
+    "transport_error": "<urlopen error timed out>"
+  },
+  {
+    "timestamp_utc": "2026-10-22T10:17:43.681768+00:00",
+    "status": null,
+    "elapsed_ms": 401.199,
+    "body": "",
+    "transport_error": "<urlopen error timed out>"
+  },
+  {
+    "timestamp_utc": "2026-10-22T10:17:44.197467+00:00",
+    "status": null,
+    "elapsed_ms": 415.348,
+    "body": "",
+    "transport_error": "<urlopen error timed out>"
+  },
+  {
+    "timestamp_utc": "2026-10-22T10:17:44.713200+00:00",
+    "status": null,
+    "elapsed_ms": 415.666,
+    "body": "",
+    "transport_error": "<urlopen error timed out>"
+  }
+]

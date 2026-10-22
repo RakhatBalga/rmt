@@ -1,0 +1,37 @@
+[
+  {
+    "timestamp_utc": "2026-10-22T10:17:14.529472+00:00",
+    "status": 200,
+    "elapsed_ms": 1.539,
+    "body": "{\"items\": [{\"id\": 1, \"name\": \"demo item\"}]}",
+    "transport_error": ""
+  },
+  {
+    "timestamp_utc": "2026-10-22T10:17:14.631432+00:00",
+    "status": 200,
+    "elapsed_ms": 1.842,
+    "body": "{\"items\": [{\"id\": 1, \"name\": \"demo item\"}]}",
+    "transport_error": ""
+  },
+  {
+    "timestamp_utc": "2026-10-22T10:17:14.733441+00:00",
+    "status": 200,
+    "elapsed_ms": 1.812,
+    "body": "{\"items\": [{\"id\": 1, \"name\": \"demo item\"}]}",
+    "transport_error": ""
+  },
+  {
+    "timestamp_utc": "2026-10-22T10:17:14.835713+00:00",
+    "status": 200,
+    "elapsed_ms": 1.86,
+    "body": "{\"items\": [{\"id\": 1, \"name\": \"demo item\"}]}",
+    "transport_error": ""
+  },
+  {
+    "timestamp_utc": "2026-10-22T10:17:14.949953+00:00",
+    "status": 200,
+    "elapsed_ms": 13.717,
+    "body": "{\"items\": [{\"id\": 1, \"name\": \"demo item\"}]}",
+    "transport_error": ""
+  }
+]

@@ -1,0 +1,7 @@
+FROM python:3.12-slim@sha256:cb33f7f771ecec2ef1225cf39b159591a040391bd73e4c01f00fdfc4c47611d2
+WORKDIR /app
+COPY app/server.py /app/server.py
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
+USER 65534:65534
+EXPOSE 8080
+CMD ["python", "/app/server.py"]

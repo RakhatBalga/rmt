@@ -1,0 +1,3 @@
+{"time": "2026-10-22T18:37:01.936698+00:00", "level": "INFO", "message": "API started"}
+{"time": "2026-10-22T18:37:02.129378+00:00", "level": "ERROR", "message": "Upstream cache timeout; served from fallback"}
+{"time": "2026-10-22T18:37:02.548668+00:00", "level": "ERROR", "message": "Upstream cache timeout; served from fallback"}

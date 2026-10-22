@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "study_kind": "synthetic controlled technical benchmark; no human participants; no ML",
+  "research_question": "How accurately can injected faults in a containerized Web API be detected from HTTP responses, container state and application logs, used separately and in combination?",
+  "image_tag": "rmt-a3-api:1.0",
+  "seed": 2424,
+  "requests_per_trial": 5,
+  "request_timeout_seconds": 0.4,
+  "request_interval_seconds": 0.1,
+  "log_settle_seconds": 1.2,
+  "healthy_trials_per_round": 5,
+  "scenarios": ["healthy", "exception", "silent_http_error", "background_error", "slow_response", "stopped_container"],
+  "ground_truth": "healthy=0, all five explicitly injected fault scenarios=1, including degraded internal audit functionality even when HTTP still succeeds",
+  "http_rule": "positive if any measured request has a transport error or HTTP status >=400",
+  "container_rule": "positive if Running is false or OOMKilled is true or RestartCount >0 in the post-observation state snapshot; no HTTP healthcheck",
+  "log_rule": "positive if any application JSON log event has level ERROR or CRITICAL; startup and readiness contain no errors",
+  "combination_rule": "logical OR of the selected single-source detector decisions",
+  "baseline": "HTTP alone; also report always-healthy reference",
+  "design": "Five healthy trials and one trial per fault type per randomized round. All seven signal configurations score the same trial observations. Fresh container per trial. Sequential requests. Five requests are subsamples, not five independent trials.",
+  "invalid_trial_rule": "Infrastructure, readiness, Docker CLI or malformed-log failure invalidates the whole trial; retain error and evidence, exclude from metrics and report exclusion count. HTTP connection failure AFTER a confirmed stop is an intended observation.",
+  "split_policy": "No train/validation/test split: fixed rules, no trained model. Pilot and main runs stored separately. Main rules must be frozen before main collection; changes need a new protocol version and are disclosed.",
+  "limitations": "Purposively constructed faults, one synthetic API, low load, local Docker Desktop, deterministic rules, no claims about student skill or production/general fault detection. Fault mix determines aggregate metrics. Combination OR cannot lower recall but may raise false positives."
+}

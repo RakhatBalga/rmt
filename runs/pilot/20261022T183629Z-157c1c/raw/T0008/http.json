@@ -1,0 +1,37 @@
+[
+  {
+    "timestamp_utc": "2026-10-22T18:36:50.375601+00:00",
+    "status": 500,
+    "elapsed_ms": 19.142,
+    "body": "{\"error\": \"calculation failed\"}",
+    "transport_error": ""
+  },
+  {
+    "timestamp_utc": "2026-10-22T18:36:50.493725+00:00",
+    "status": 500,
+    "elapsed_ms": 17.449,
+    "body": "{\"error\": \"calculation failed\"}",
+    "transport_error": ""
+  },
+  {
+    "timestamp_utc": "2026-10-22T18:36:50.998510+00:00",
+    "status": null,
+    "elapsed_ms": 402.04,
+    "body": "",
+    "transport_error": "timed out"
+  },
+  {
+    "timestamp_utc": "2026-10-22T18:36:51.119779+00:00",
+    "status": 500,
+    "elapsed_ms": 16.204,
+    "body": "{\"error\": \"calculation failed\"}",
+    "transport_error": ""
+  },
+  {
+    "timestamp_utc": "2026-10-22T18:36:51.267602+00:00",
+    "status": 500,
+    "elapsed_ms": 43.306,
+    "body": "{\"error\": \"calculation failed\"}",
+    "transport_error": ""
+  }
+]

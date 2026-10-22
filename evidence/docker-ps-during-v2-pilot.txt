@@ -1,0 +1,4 @@
+captured 2026-10-22T18:36:37Z
+$ docker ps --filter label=rmt-a3-lab=true
+CONTAINER ID   IMAGE          STATUS         PORTS                       NAMES
+5d581296b2a2   3a22e025e3b0   Up 2 seconds   127.0.0.1:49680->8080/tcp   rmt-a3-c8fc12ba7b1a

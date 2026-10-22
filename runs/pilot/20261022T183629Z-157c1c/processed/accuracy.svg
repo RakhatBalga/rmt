@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="510" viewBox="0 0 1000 510">
+<rect width="1000" height="510" fill="#f7f9fc"/>
+<g font-family="Arial" fill="#17233b"><text x="35" y="40" font-size="24">Measured detection accuracy</text>
+<text x="35" y="67" font-size="14">Synthetic API | 28 valid trials | pilot</text>
+<text x="35" y="124" font-size="15">http</text>
+<rect x="300" y="105" width="550" height="27" fill="#e0e6f0"/>
+<rect x="300" y="105" width="491.07135" height="27" fill="#2764b8"/>
+<text x="870" y="124" font-size="16">89.3%</text>
+<text x="35" y="168" font-size="15">container</text>
+<rect x="300" y="149" width="550" height="27" fill="#e0e6f0"/>
+<rect x="300" y="149" width="353.57135" height="27" fill="#2764b8"/>
+<text x="870" y="168" font-size="16">64.3%</text>
+<text x="35" y="212" font-size="15">logs</text>
+<rect x="300" y="193" width="550" height="27" fill="#e0e6f0"/>
+<rect x="300" y="193" width="353.57135" height="27" fill="#2764b8"/>
+<text x="870" y="212" font-size="16">64.3%</text>
+<text x="35" y="256" font-size="15">http+container</text>
+<rect x="300" y="237" width="550" height="27" fill="#e0e6f0"/>
+<rect x="300" y="237" width="491.07135" height="27" fill="#2764b8"/>
+<text x="870" y="256" font-size="16">89.3%</text>
+<text x="35" y="300" font-size="15">http+logs</text>
+<rect x="300" y="281" width="550" height="27" fill="#e0e6f0"/>
+<rect x="300" y="281" width="451.78594999999996" height="27" fill="#2764b8"/>
+<text x="870" y="300" font-size="16">82.1%</text>
+<text x="35" y="344" font-size="15">container+logs</text>
+<rect x="300" y="325" width="550" height="27" fill="#e0e6f0"/>
+<rect x="300" y="325" width="412.5" height="27" fill="#2764b8"/>
+<text x="870" y="344" font-size="16">75.0%</text>
+<text x="35" y="388" font-size="15">http+container+logs</text>
+<rect x="300" y="369" width="550" height="27" fill="#e0e6f0"/>
+<rect x="300" y="369" width="451.78594999999996" height="27" fill="#2764b8"/>
+<text x="870" y="388" font-size="16">82.1%</text>
+<text x="35" y="432" font-size="15">always_healthy_reference</text>
+<rect x="300" y="413" width="550" height="27" fill="#e0e6f0"/>
+<rect x="300" y="413" width="275.0" height="27" fill="#2764b8"/>
+<text x="870" y="432" font-size="16">50.0%</text>
+<text x="35" y="490" font-size="13">Source: metrics.csv. Horizontal scale: 0 to 100%. No inferential claims.</text></g></svg>

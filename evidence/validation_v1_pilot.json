@@ -1,0 +1,10 @@
+{
+  "trials": 20,
+  "valid_trials": 20,
+  "http_measurements": 100,
+  "condition_decisions": 140,
+  "all_cleanup_commands_succeeded": true,
+  "unique_trial_condition_pairs": true,
+  "accuracy_independently_recomputed": true,
+  "software_test_cases_passed": 5
+}

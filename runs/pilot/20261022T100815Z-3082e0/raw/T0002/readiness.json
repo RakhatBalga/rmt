@@ -1,0 +1,9 @@
+[
+  {
+    "timestamp_utc": "2026-10-22T10:08:20.354550+00:00",
+    "status": 200,
+    "elapsed_ms": 2.6,
+    "body": "{\"ready\": true}",
+    "transport_error": ""
+  }
+]

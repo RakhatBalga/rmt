@@ -1,0 +1,37 @@
+[
+  {
+    "timestamp_utc": "2026-10-22T18:37:10.066138+00:00",
+    "status": null,
+    "elapsed_ms": 401.86,
+    "body": "",
+    "transport_error": "timed out"
+  },
+  {
+    "timestamp_utc": "2026-10-22T18:37:10.571320+00:00",
+    "status": null,
+    "elapsed_ms": 401.288,
+    "body": "",
+    "transport_error": "timed out"
+  },
+  {
+    "timestamp_utc": "2026-10-22T18:37:11.074329+00:00",
+    "status": null,
+    "elapsed_ms": 401.589,
+    "body": "",
+    "transport_error": "timed out"
+  },
+  {
+    "timestamp_utc": "2026-10-22T18:37:11.579211+00:00",
+    "status": null,
+    "elapsed_ms": 401.898,
+    "body": "",
+    "transport_error": "timed out"
+  },
+  {
+    "timestamp_utc": "2026-10-22T18:37:12.082409+00:00",
+    "status": null,
+    "elapsed_ms": 401.691,
+    "body": "",
+    "transport_error": "timed out"
+  }
+]

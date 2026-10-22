@@ -1,0 +1,37 @@
+[
+  {
+    "timestamp_utc": "2026-10-22T18:36:42.429083+00:00",
+    "status": 200,
+    "elapsed_ms": 56.249,
+    "body": "{\"items\": [{\"id\": 1, \"name\": \"demo item\"}]}",
+    "transport_error": ""
+  },
+  {
+    "timestamp_utc": "2026-10-22T18:36:42.562673+00:00",
+    "status": 200,
+    "elapsed_ms": 32.375,
+    "body": "{\"items\": [{\"id\": 1, \"name\": \"demo item\"}]}",
+    "transport_error": ""
+  },
+  {
+    "timestamp_utc": "2026-10-22T18:36:42.700784+00:00",
+    "status": 200,
+    "elapsed_ms": 37.489,
+    "body": "{\"items\": [{\"id\": 1, \"name\": \"demo item\"}]}",
+    "transport_error": ""
+  },
+  {
+    "timestamp_utc": "2026-10-22T18:36:42.827991+00:00",
+    "status": 200,
+    "elapsed_ms": 25.036,
+    "body": "{\"items\": [{\"id\": 1, \"name\": \"demo item\"}]}",
+    "transport_error": ""
+  },
+  {
+    "timestamp_utc": "2026-10-22T18:36:42.934739+00:00",
+    "status": null,
+    "elapsed_ms": 1.708,
+    "body": "",
+    "transport_error": "Remote end closed connection without response"
+  }
+]

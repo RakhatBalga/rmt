@@ -1,0 +1,53 @@
+Python: 3.14.2 | Platform: Windows-11-10.0.26200-SP0
+Docker executable: C:\Program Files\Docker\Docker\resources\bin\docker.EXE
+Client:
+ Version:           29.9.2
+ API version:       1.56
+ Go version:        go1.26.10
+ Git commit:        a82e528
+ Built:             Tue Oct 20 19:44:07 2026
+ OS/Arch:           windows/amd64
+ Context:           desktop-linux
+
+Server: Docker Desktop 4.96.2 (244353)
+ Engine:
+  Version:          29.9.2
+  API version:      1.56 (minimum version 1.40)
+  Go version:       go1.26.10
+  Git commit:       0367cbe
+  Built:            Tue Oct 20 18:45:02 2026
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          v2.4.2
+  GitCommit:        b7a25261e029d68978bbf290df0a62fc819b3c51
+ runc:
+  Version:          1.5.2
+  GitCommit:        v1.5.2-0-g29dd3dc2
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+
+READY: Linux Docker engine responds.
+RUN DIRECTORY: C:\ChatGPT\rmt-a3-lab\runs\pilot\20261022T101634Z-23a61b
+T0001 healthy: collected
+T0002 healthy: collected
+T0003 stopped_container: collected
+T0004 silent_http_error: collected
+T0005 exception: collected
+T0006 background_error: collected
+T0007 healthy: collected
+T0008 healthy: collected
+T0009 slow_response: collected
+T0010 healthy: collected
+T0011 healthy: collected
+T0012 healthy: collected
+T0013 exception: collected
+T0014 healthy: collected
+T0015 silent_http_error: collected
+T0016 slow_response: collected
+T0017 healthy: collected
+T0018 healthy: collected
+T0019 background_error: collected
+T0020 stopped_container: collected
+Collection finished. Analyze separately: python lab.py analyze "C:\ChatGPT\rmt-a3-lab\runs\pilot\20261022T101634Z-23a61b"

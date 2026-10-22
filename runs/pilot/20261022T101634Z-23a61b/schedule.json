@@ -1,0 +1,122 @@
+[
+  {
+    "trial": "T0001",
+    "round": 1,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0002",
+    "round": 1,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0003",
+    "round": 1,
+    "scenario": "stopped_container",
+    "truth": 1
+  },
+  {
+    "trial": "T0004",
+    "round": 1,
+    "scenario": "silent_http_error",
+    "truth": 1
+  },
+  {
+    "trial": "T0005",
+    "round": 1,
+    "scenario": "exception",
+    "truth": 1
+  },
+  {
+    "trial": "T0006",
+    "round": 1,
+    "scenario": "background_error",
+    "truth": 1
+  },
+  {
+    "trial": "T0007",
+    "round": 1,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0008",
+    "round": 1,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0009",
+    "round": 1,
+    "scenario": "slow_response",
+    "truth": 1
+  },
+  {
+    "trial": "T0010",
+    "round": 1,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0011",
+    "round": 2,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0012",
+    "round": 2,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0013",
+    "round": 2,
+    "scenario": "exception",
+    "truth": 1
+  },
+  {
+    "trial": "T0014",
+    "round": 2,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0015",
+    "round": 2,
+    "scenario": "silent_http_error",
+    "truth": 1
+  },
+  {
+    "trial": "T0016",
+    "round": 2,
+    "scenario": "slow_response",
+    "truth": 1
+  },
+  {
+    "trial": "T0017",
+    "round": 2,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0018",
+    "round": 2,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0019",
+    "round": 2,
+    "scenario": "background_error",
+    "truth": 1
+  },
+  {
+    "trial": "T0020",
+    "round": 2,
+    "scenario": "stopped_container",
+    "truth": 1
+  }
+]
