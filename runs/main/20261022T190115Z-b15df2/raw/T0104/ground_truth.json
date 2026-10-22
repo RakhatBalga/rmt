@@ -1,0 +1,6 @@
+{
+  "trial": "T0104",
+  "round": 8,
+  "scenario": "intermittent_exception",
+  "truth": 1
+}

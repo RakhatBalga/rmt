@@ -1,0 +1,37 @@
+[
+  {
+    "timestamp_utc": "2026-10-22T19:01:50.681467+00:00",
+    "status": 503,
+    "elapsed_ms": 36.44,
+    "body": "{\"error\": \"service unavailable\"}",
+    "transport_error": ""
+  },
+  {
+    "timestamp_utc": "2026-10-22T19:01:51.129879+00:00",
+    "status": 503,
+    "elapsed_ms": 346.782,
+    "body": "{\"error\": \"service unavailable\"}",
+    "transport_error": ""
+  },
+  {
+    "timestamp_utc": "2026-10-22T19:01:51.263160+00:00",
+    "status": 503,
+    "elapsed_ms": 31.866,
+    "body": "{\"error\": \"service unavailable\"}",
+    "transport_error": ""
+  },
+  {
+    "timestamp_utc": "2026-10-22T19:01:51.385395+00:00",
+    "status": 503,
+    "elapsed_ms": 17.186,
+    "body": "{\"error\": \"service unavailable\"}",
+    "transport_error": ""
+  },
+  {
+    "timestamp_utc": "2026-10-22T19:01:51.525937+00:00",
+    "status": 503,
+    "elapsed_ms": 35.481,
+    "body": "{\"error\": \"service unavailable\"}",
+    "transport_error": ""
+  }
+]

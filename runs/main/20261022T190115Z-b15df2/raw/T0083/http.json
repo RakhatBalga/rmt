@@ -1,0 +1,37 @@
+[
+  {
+    "timestamp_utc": "2026-10-22T19:05:12.049651+00:00",
+    "status": null,
+    "elapsed_ms": 0.704,
+    "body": "",
+    "transport_error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  {
+    "timestamp_utc": "2026-10-22T19:05:12.152525+00:00",
+    "status": null,
+    "elapsed_ms": 0.349,
+    "body": "",
+    "transport_error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  {
+    "timestamp_utc": "2026-10-22T19:05:12.255322+00:00",
+    "status": null,
+    "elapsed_ms": 0.693,
+    "body": "",
+    "transport_error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  {
+    "timestamp_utc": "2026-10-22T19:05:12.360987+00:00",
+    "status": null,
+    "elapsed_ms": 0.611,
+    "body": "",
+    "transport_error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  {
+    "timestamp_utc": "2026-10-22T19:05:12.466137+00:00",
+    "status": null,
+    "elapsed_ms": 0.613,
+    "body": "",
+    "transport_error": "<urlopen error [Errno 61] Connection refused>"
+  }
+]

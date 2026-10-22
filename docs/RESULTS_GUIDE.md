@@ -148,3 +148,33 @@ the expectations are tested on the main run.
 Caution about log "detections": in slow_response T0015 and crash_restart T0005 the
 logs detector fired only because of a benign noise line, not because of the fault.
 The binary rule counts these as TP. Read metrics_by_scenario.csv with this in mind.
+
+# Protocol 2.0 main run (run 20261022T190115Z-b15df2)
+
+140 planned trials, 139 valid (69 healthy, 70 faulty), 695 measured requests in valid
+trials. Protocol and expectations unchanged from the 2.0 pilot.
+
+| Configuration | TP | TN | FP | FN | Accuracy (95% CI) | Recall | FPR |
+|---|---:|---:|---:|---:|---|---:|---:|
+| http | 60 | 61 | 8 | 10 | 0.871 (0.80–0.92) | 0.857 | 0.116 |
+| container | 20 | 69 | 0 | 50 | 0.640 (0.56–0.72) | 0.286 | 0.000 |
+| logs | 38 | 54 | 15 | 32 | 0.662 (0.58–0.74) | 0.543 | 0.217 |
+| http+container | 60 | 61 | 8 | 10 | 0.871 (0.80–0.92) | 0.857 | 0.116 |
+| http+logs | 70 | 46 | 23 | 0 | 0.835 (0.76–0.89) | 1.000 | 0.333 |
+| container+logs | 58 | 54 | 15 | 12 | 0.806 (0.73–0.86) | 0.829 | 0.217 |
+| http+container+logs | 70 | 46 | 23 | 0 | 0.835 (0.76–0.89) | 1.000 | 0.333 |
+| always_healthy_reference | 0 | 69 | 0 | 70 | 0.496 | 0.000 | 0.000 |
+
+Paired comparison with HTTP (exact McNemar): container-only and logs-only are worse
+(p < 0.001); HTTP+logs, container+logs and all three differ from HTTP in both
+directions without a clear overall difference (p = 0.42, 0.23, 0.42).
+
+What each signal saw: HTTP missed every background_error (0/10) and raised 8 false
+alarms on 69 healthy trials (latency spikes). Container state detected only
+stopped_container and crash_restart (10/10 each) with no false alarm. Logs found
+exception, background_error and intermittent_exception (10/10 each), but its hits
+on silent_http_error (4/10) and slow_response (4/10) came only from benign noise
+lines, and it raised 15 false alarms.
+
+The invalid trial T0125 is explained in the README. Its files are kept in
+raw/T0125 with failure.json.

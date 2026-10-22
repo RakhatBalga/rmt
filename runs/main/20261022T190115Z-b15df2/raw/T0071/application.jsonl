@@ -1,0 +1,7 @@
+{"time": "2026-10-22T19:04:35.300078+00:00", "level": "INFO", "message": "API started"}
+{"time": "2026-10-22T19:04:35.373418+00:00", "level": "ERROR", "message": "Item calculation failed: ZeroDivisionError"}
+{"time": "2026-10-22T19:04:35.913635+00:00", "level": "ERROR", "message": "Item calculation failed: ZeroDivisionError"}
+{"time": "2026-10-22T19:04:36.009823+00:00", "level": "ERROR", "message": "Item calculation failed: ZeroDivisionError"}
+{"time": "2026-10-22T19:04:36.144824+00:00", "level": "ERROR", "message": "Item calculation failed: ZeroDivisionError"}
+{"time": "2026-10-22T19:04:36.294677+00:00", "level": "ERROR", "message": "Upstream cache timeout; served from fallback"}
+{"time": "2026-10-22T19:04:36.294714+00:00", "level": "ERROR", "message": "Item calculation failed: ZeroDivisionError"}

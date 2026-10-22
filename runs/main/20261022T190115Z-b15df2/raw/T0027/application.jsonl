@@ -1,0 +1,2 @@
+{"time": "2026-10-22T19:02:30.211590+00:00", "level": "INFO", "message": "API started"}
+{"time": "2026-10-22T19:02:30.673946+00:00", "level": "ERROR", "message": "Item calculation failed: ZeroDivisionError"}

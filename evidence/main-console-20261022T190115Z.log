@@ -1,0 +1,175 @@
+Python: 3.14.4 | Platform: macOS-26.6.2-arm64-arm-64bit-Mach-O
+Docker executable: /usr/local/bin/docker
+Client:
+ Version:           29.4.3
+ API version:       1.54
+ Go version:        go1.26.2
+ Git commit:        055a478
+ Built:             Wed May  6 17:06:34 2026
+ OS/Arch:           darwin/arm64
+ Context:           desktop-linux
+
+Server: Docker Desktop 4.73.0 (226246)
+ Engine:
+  Version:          29.4.3
+  API version:      1.54 (minimum version 1.40)
+  Go version:       go1.26.2
+  Git commit:       56be731
+  Built:            Wed May  6 17:09:05 2026
+  OS/Arch:          linux/arm64
+  Experimental:     false
+ containerd:
+  Version:          v2.2.3
+  GitCommit:        77c84241c7cbdd9b4eca2591793e3d4f4317c590
+ runc:
+  Version:          1.3.5
+  GitCommit:        v1.3.5-0-g488fc13e
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+
+READY: Linux Docker engine responds.
+RUN DIRECTORY: /Users/rakhatbalgabekov/Downloads/rmt-a3-lab-v2/runs/main/20261022T190115Z-b15df2
+T0001 background_error: collected
+T0002 healthy: collected
+T0003 slow_response: collected
+T0004 healthy: collected
+T0005 crash_restart: collected
+T0006 healthy: collected
+T0007 intermittent_exception: collected
+T0008 exception: collected
+T0009 healthy: collected
+T0010 stopped_container: collected
+T0011 healthy: collected
+T0012 healthy: collected
+T0013 silent_http_error: collected
+T0014 healthy: collected
+T0015 slow_response: collected
+T0016 healthy: collected
+T0017 stopped_container: collected
+T0018 exception: collected
+T0019 healthy: collected
+T0020 healthy: collected
+T0021 healthy: collected
+T0022 crash_restart: collected
+T0023 background_error: collected
+T0024 healthy: collected
+T0025 healthy: collected
+T0026 healthy: collected
+T0027 intermittent_exception: collected
+T0028 silent_http_error: collected
+T0029 background_error: collected
+T0030 crash_restart: collected
+T0031 healthy: collected
+T0032 stopped_container: collected
+T0033 healthy: collected
+T0034 silent_http_error: collected
+T0035 healthy: collected
+T0036 slow_response: collected
+T0037 exception: collected
+T0038 healthy: collected
+T0039 healthy: collected
+T0040 healthy: collected
+T0041 healthy: collected
+T0042 intermittent_exception: collected
+T0043 slow_response: collected
+T0044 healthy: collected
+T0045 intermittent_exception: collected
+T0046 healthy: collected
+T0047 healthy: collected
+T0048 exception: collected
+T0049 healthy: collected
+T0050 healthy: collected
+T0051 background_error: collected
+T0052 healthy: collected
+T0053 healthy: collected
+T0054 stopped_container: collected
+T0055 silent_http_error: collected
+T0056 crash_restart: collected
+T0057 healthy: collected
+T0058 background_error: collected
+T0059 exception: collected
+T0060 healthy: collected
+T0061 intermittent_exception: collected
+T0062 crash_restart: collected
+T0063 healthy: collected
+T0064 healthy: collected
+T0065 healthy: collected
+T0066 slow_response: collected
+T0067 silent_http_error: collected
+T0068 healthy: collected
+T0069 healthy: collected
+T0070 stopped_container: collected
+T0071 exception: collected
+T0072 healthy: collected
+T0073 healthy: collected
+T0074 background_error: collected
+T0075 slow_response: collected
+T0076 intermittent_exception: collected
+T0077 healthy: collected
+T0078 healthy: collected
+T0079 silent_http_error: collected
+T0080 healthy: collected
+T0081 healthy: collected
+T0082 healthy: collected
+T0083 stopped_container: collected
+T0084 crash_restart: collected
+T0085 background_error: collected
+T0086 intermittent_exception: collected
+T0087 crash_restart: collected
+T0088 slow_response: collected
+T0089 exception: collected
+T0090 healthy: collected
+T0091 stopped_container: collected
+T0092 healthy: collected
+T0093 healthy: collected
+T0094 healthy: collected
+T0095 healthy: collected
+T0096 healthy: collected
+T0097 silent_http_error: collected
+T0098 healthy: collected
+T0099 healthy: collected
+T0100 silent_http_error: collected
+T0101 slow_response: collected
+T0102 healthy: collected
+T0103 stopped_container: collected
+T0104 intermittent_exception: collected
+T0105 healthy: collected
+T0106 healthy: collected
+T0107 healthy: collected
+T0108 background_error: collected
+T0109 healthy: collected
+T0110 exception: collected
+T0111 crash_restart: collected
+T0112 healthy: collected
+T0113 exception: collected
+T0114 healthy: collected
+T0115 intermittent_exception: collected
+T0116 healthy: collected
+T0117 stopped_container: collected
+T0118 healthy: collected
+T0119 silent_http_error: collected
+T0120 healthy: collected
+T0121 healthy: collected
+T0122 crash_restart: collected
+T0123 slow_response: collected
+T0124 background_error: collected
+T0125 healthy: INVALID: Extra data: line 1 column 122 (char 121)
+T0126 healthy: collected
+T0127 healthy: collected
+T0128 healthy: collected
+T0129 crash_restart: collected
+T0130 slow_response: collected
+T0131 stopped_container: collected
+T0132 intermittent_exception: collected
+T0133 healthy: collected
+T0134 healthy: collected
+T0135 healthy: collected
+T0136 healthy: collected
+T0137 exception: collected
+T0138 background_error: collected
+T0139 healthy: collected
+T0140 silent_http_error: collected
+ERROR: Some trials failed. Preserve and inspect invalid trials; do not silently rerun/replace them.
+Collection finished. Analyze separately: python lab.py analyze "/Users/rakhatbalgabekov/Downloads/rmt-a3-lab-v2/runs/main/20261022T190115Z-b15df2"
+EXIT 1

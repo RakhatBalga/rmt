@@ -1,0 +1,6 @@
+{
+  "trial": "T0034",
+  "round": 3,
+  "scenario": "silent_http_error",
+  "truth": 1
+}

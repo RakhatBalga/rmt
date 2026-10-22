@@ -1,0 +1,30 @@
+[
+  {
+    "timestamp_utc": "2026-10-22T19:03:38.204719+00:00",
+    "status": null,
+    "elapsed_ms": 1.233,
+    "body": "",
+    "transport_error": "Remote end closed connection without response"
+  },
+  {
+    "timestamp_utc": "2026-10-22T19:03:38.310644+00:00",
+    "status": null,
+    "elapsed_ms": 1.081,
+    "body": "",
+    "transport_error": "Remote end closed connection without response"
+  },
+  {
+    "timestamp_utc": "2026-10-22T19:03:38.414519+00:00",
+    "status": null,
+    "elapsed_ms": 1.166,
+    "body": "",
+    "transport_error": "Remote end closed connection without response"
+  },
+  {
+    "timestamp_utc": "2026-10-22T19:03:38.518061+00:00",
+    "status": 200,
+    "elapsed_ms": 2.042,
+    "body": "{\"ready\": true}",
+    "transport_error": ""
+  }
+]

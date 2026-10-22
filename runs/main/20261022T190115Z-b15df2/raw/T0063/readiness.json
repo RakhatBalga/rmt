@@ -1,0 +1,23 @@
+[
+  {
+    "timestamp_utc": "2026-10-22T19:04:10.792804+00:00",
+    "status": null,
+    "elapsed_ms": 1.126,
+    "body": "",
+    "transport_error": "Remote end closed connection without response"
+  },
+  {
+    "timestamp_utc": "2026-10-22T19:04:10.898700+00:00",
+    "status": null,
+    "elapsed_ms": 0.9,
+    "body": "",
+    "transport_error": "Remote end closed connection without response"
+  },
+  {
+    "timestamp_utc": "2026-10-22T19:04:11.002533+00:00",
+    "status": 200,
+    "elapsed_ms": 1.976,
+    "body": "{\"ready\": true}",
+    "transport_error": ""
+  }
+]

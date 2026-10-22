@@ -1,0 +1,37 @@
+[
+  {
+    "timestamp_utc": "2026-10-22T19:03:52.428287+00:00",
+    "status": 200,
+    "elapsed_ms": 50.548,
+    "body": "{\"items\": [{\"id\": 1, \"name\": \"demo item\"}]}",
+    "transport_error": ""
+  },
+  {
+    "timestamp_utc": "2026-10-22T19:03:52.582749+00:00",
+    "status": 200,
+    "elapsed_ms": 49.453,
+    "body": "{\"items\": [{\"id\": 1, \"name\": \"demo item\"}]}",
+    "transport_error": ""
+  },
+  {
+    "timestamp_utc": "2026-10-22T19:03:52.687785+00:00",
+    "status": null,
+    "elapsed_ms": 1.699,
+    "body": "",
+    "transport_error": "Remote end closed connection without response"
+  },
+  {
+    "timestamp_utc": "2026-10-22T19:03:52.801149+00:00",
+    "status": null,
+    "elapsed_ms": 11.555,
+    "body": "",
+    "transport_error": "Remote end closed connection without response"
+  },
+  {
+    "timestamp_utc": "2026-10-22T19:03:52.902915+00:00",
+    "status": null,
+    "elapsed_ms": 0.517,
+    "body": "",
+    "transport_error": "<urlopen error [Errno 61] Connection refused>"
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "trial": "T0001",
+    "round": 1,
+    "scenario": "background_error",
+    "truth": 1
+  },
+  {
+    "trial": "T0002",
+    "round": 1,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0003",
+    "round": 1,
+    "scenario": "slow_response",
+    "truth": 1
+  },
+  {
+    "trial": "T0004",
+    "round": 1,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0005",
+    "round": 1,
+    "scenario": "crash_restart",
+    "truth": 1
+  },
+  {
+    "trial": "T0006",
+    "round": 1,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0007",
+    "round": 1,
+    "scenario": "intermittent_exception",
+    "truth": 1
+  },
+  {
+    "trial": "T0008",
+    "round": 1,
+    "scenario": "exception",
+    "truth": 1
+  },
+  {
+    "trial": "T0009",
+    "round": 1,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0010",
+    "round": 1,
+    "scenario": "stopped_container",
+    "truth": 1
+  },
+  {
+    "trial": "T0011",
+    "round": 1,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0012",
+    "round": 1,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0013",
+    "round": 1,
+    "scenario": "silent_http_error",
+    "truth": 1
+  },
+  {
+    "trial": "T0014",
+    "round": 1,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0015",
+    "round": 2,
+    "scenario": "slow_response",
+    "truth": 1
+  },
+  {
+    "trial": "T0016",
+    "round": 2,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0017",
+    "round": 2,
+    "scenario": "stopped_container",
+    "truth": 1
+  },
+  {
+    "trial": "T0018",
+    "round": 2,
+    "scenario": "exception",
+    "truth": 1
+  },
+  {
+    "trial": "T0019",
+    "round": 2,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0020",
+    "round": 2,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0021",
+    "round": 2,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0022",
+    "round": 2,
+    "scenario": "crash_restart",
+    "truth": 1
+  },
+  {
+    "trial": "T0023",
+    "round": 2,
+    "scenario": "background_error",
+    "truth": 1
+  },
+  {
+    "trial": "T0024",
+    "round": 2,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0025",
+    "round": 2,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0026",
+    "round": 2,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0027",
+    "round": 2,
+    "scenario": "intermittent_exception",
+    "truth": 1
+  },
+  {
+    "trial": "T0028",
+    "round": 2,
+    "scenario": "silent_http_error",
+    "truth": 1
+  },
+  {
+    "trial": "T0029",
+    "round": 3,
+    "scenario": "background_error",
+    "truth": 1
+  },
+  {
+    "trial": "T0030",
+    "round": 3,
+    "scenario": "crash_restart",
+    "truth": 1
+  },
+  {
+    "trial": "T0031",
+    "round": 3,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0032",
+    "round": 3,
+    "scenario": "stopped_container",
+    "truth": 1
+  },
+  {
+    "trial": "T0033",
+    "round": 3,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0034",
+    "round": 3,
+    "scenario": "silent_http_error",
+    "truth": 1
+  },
+  {
+    "trial": "T0035",
+    "round": 3,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0036",
+    "round": 3,
+    "scenario": "slow_response",
+    "truth": 1
+  },
+  {
+    "trial": "T0037",
+    "round": 3,
+    "scenario": "exception",
+    "truth": 1
+  },
+  {
+    "trial": "T0038",
+    "round": 3,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0039",
+    "round": 3,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0040",
+    "round": 3,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0041",
+    "round": 3,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0042",
+    "round": 3,
+    "scenario": "intermittent_exception",
+    "truth": 1
+  },
+  {
+    "trial": "T0043",
+    "round": 4,
+    "scenario": "slow_response",
+    "truth": 1
+  },
+  {
+    "trial": "T0044",
+    "round": 4,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0045",
+    "round": 4,
+    "scenario": "intermittent_exception",
+    "truth": 1
+  },
+  {
+    "trial": "T0046",
+    "round": 4,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0047",
+    "round": 4,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0048",
+    "round": 4,
+    "scenario": "exception",
+    "truth": 1
+  },
+  {
+    "trial": "T0049",
+    "round": 4,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0050",
+    "round": 4,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0051",
+    "round": 4,
+    "scenario": "background_error",
+    "truth": 1
+  },
+  {
+    "trial": "T0052",
+    "round": 4,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0053",
+    "round": 4,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0054",
+    "round": 4,
+    "scenario": "stopped_container",
+    "truth": 1
+  },
+  {
+    "trial": "T0055",
+    "round": 4,
+    "scenario": "silent_http_error",
+    "truth": 1
+  },
+  {
+    "trial": "T0056",
+    "round": 4,
+    "scenario": "crash_restart",
+    "truth": 1
+  },
+  {
+    "trial": "T0057",
+    "round": 5,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0058",
+    "round": 5,
+    "scenario": "background_error",
+    "truth": 1
+  },
+  {
+    "trial": "T0059",
+    "round": 5,
+    "scenario": "exception",
+    "truth": 1
+  },
+  {
+    "trial": "T0060",
+    "round": 5,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0061",
+    "round": 5,
+    "scenario": "intermittent_exception",
+    "truth": 1
+  },
+  {
+    "trial": "T0062",
+    "round": 5,
+    "scenario": "crash_restart",
+    "truth": 1
+  },
+  {
+    "trial": "T0063",
+    "round": 5,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0064",
+    "round": 5,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0065",
+    "round": 5,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0066",
+    "round": 5,
+    "scenario": "slow_response",
+    "truth": 1
+  },
+  {
+    "trial": "T0067",
+    "round": 5,
+    "scenario": "silent_http_error",
+    "truth": 1
+  },
+  {
+    "trial": "T0068",
+    "round": 5,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0069",
+    "round": 5,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0070",
+    "round": 5,
+    "scenario": "stopped_container",
+    "truth": 1
+  },
+  {
+    "trial": "T0071",
+    "round": 6,
+    "scenario": "exception",
+    "truth": 1
+  },
+  {
+    "trial": "T0072",
+    "round": 6,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0073",
+    "round": 6,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0074",
+    "round": 6,
+    "scenario": "background_error",
+    "truth": 1
+  },
+  {
+    "trial": "T0075",
+    "round": 6,
+    "scenario": "slow_response",
+    "truth": 1
+  },
+  {
+    "trial": "T0076",
+    "round": 6,
+    "scenario": "intermittent_exception",
+    "truth": 1
+  },
+  {
+    "trial": "T0077",
+    "round": 6,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0078",
+    "round": 6,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0079",
+    "round": 6,
+    "scenario": "silent_http_error",
+    "truth": 1
+  },
+  {
+    "trial": "T0080",
+    "round": 6,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0081",
+    "round": 6,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0082",
+    "round": 6,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0083",
+    "round": 6,
+    "scenario": "stopped_container",
+    "truth": 1
+  },
+  {
+    "trial": "T0084",
+    "round": 6,
+    "scenario": "crash_restart",
+    "truth": 1
+  },
+  {
+    "trial": "T0085",
+    "round": 7,
+    "scenario": "background_error",
+    "truth": 1
+  },
+  {
+    "trial": "T0086",
+    "round": 7,
+    "scenario": "intermittent_exception",
+    "truth": 1
+  },
+  {
+    "trial": "T0087",
+    "round": 7,
+    "scenario": "crash_restart",
+    "truth": 1
+  },
+  {
+    "trial": "T0088",
+    "round": 7,
+    "scenario": "slow_response",
+    "truth": 1
+  },
+  {
+    "trial": "T0089",
+    "round": 7,
+    "scenario": "exception",
+    "truth": 1
+  },
+  {
+    "trial": "T0090",
+    "round": 7,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0091",
+    "round": 7,
+    "scenario": "stopped_container",
+    "truth": 1
+  },
+  {
+    "trial": "T0092",
+    "round": 7,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0093",
+    "round": 7,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0094",
+    "round": 7,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0095",
+    "round": 7,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0096",
+    "round": 7,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0097",
+    "round": 7,
+    "scenario": "silent_http_error",
+    "truth": 1
+  },
+  {
+    "trial": "T0098",
+    "round": 7,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0099",
+    "round": 8,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0100",
+    "round": 8,
+    "scenario": "silent_http_error",
+    "truth": 1
+  },
+  {
+    "trial": "T0101",
+    "round": 8,
+    "scenario": "slow_response",
+    "truth": 1
+  },
+  {
+    "trial": "T0102",
+    "round": 8,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0103",
+    "round": 8,
+    "scenario": "stopped_container",
+    "truth": 1
+  },
+  {
+    "trial": "T0104",
+    "round": 8,
+    "scenario": "intermittent_exception",
+    "truth": 1
+  },
+  {
+    "trial": "T0105",
+    "round": 8,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0106",
+    "round": 8,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0107",
+    "round": 8,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0108",
+    "round": 8,
+    "scenario": "background_error",
+    "truth": 1
+  },
+  {
+    "trial": "T0109",
+    "round": 8,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0110",
+    "round": 8,
+    "scenario": "exception",
+    "truth": 1
+  },
+  {
+    "trial": "T0111",
+    "round": 8,
+    "scenario": "crash_restart",
+    "truth": 1
+  },
+  {
+    "trial": "T0112",
+    "round": 8,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0113",
+    "round": 9,
+    "scenario": "exception",
+    "truth": 1
+  },
+  {
+    "trial": "T0114",
+    "round": 9,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0115",
+    "round": 9,
+    "scenario": "intermittent_exception",
+    "truth": 1
+  },
+  {
+    "trial": "T0116",
+    "round": 9,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0117",
+    "round": 9,
+    "scenario": "stopped_container",
+    "truth": 1
+  },
+  {
+    "trial": "T0118",
+    "round": 9,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0119",
+    "round": 9,
+    "scenario": "silent_http_error",
+    "truth": 1
+  },
+  {
+    "trial": "T0120",
+    "round": 9,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0121",
+    "round": 9,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0122",
+    "round": 9,
+    "scenario": "crash_restart",
+    "truth": 1
+  },
+  {
+    "trial": "T0123",
+    "round": 9,
+    "scenario": "slow_response",
+    "truth": 1
+  },
+  {
+    "trial": "T0124",
+    "round": 9,
+    "scenario": "background_error",
+    "truth": 1
+  },
+  {
+    "trial": "T0125",
+    "round": 9,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0126",
+    "round": 9,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0127",
+    "round": 10,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0128",
+    "round": 10,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0129",
+    "round": 10,
+    "scenario": "crash_restart",
+    "truth": 1
+  },
+  {
+    "trial": "T0130",
+    "round": 10,
+    "scenario": "slow_response",
+    "truth": 1
+  },
+  {
+    "trial": "T0131",
+    "round": 10,
+    "scenario": "stopped_container",
+    "truth": 1
+  },
+  {
+    "trial": "T0132",
+    "round": 10,
+    "scenario": "intermittent_exception",
+    "truth": 1
+  },
+  {
+    "trial": "T0133",
+    "round": 10,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0134",
+    "round": 10,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0135",
+    "round": 10,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0136",
+    "round": 10,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0137",
+    "round": 10,
+    "scenario": "exception",
+    "truth": 1
+  },
+  {
+    "trial": "T0138",
+    "round": 10,
+    "scenario": "background_error",
+    "truth": 1
+  },
+  {
+    "trial": "T0139",
+    "round": 10,
+    "scenario": "healthy",
+    "truth": 0
+  },
+  {
+    "trial": "T0140",
+    "round": 10,
+    "scenario": "silent_http_error",
+    "truth": 1
+  }
+]

@@ -29,7 +29,14 @@ separately and in combination?**
 | 20261022T101634Z-23a61b | 1.0 | Windows 11 PC, Docker 29.9.2 | 20 | 100 |
 | 20261022T183629Z-157c1c | 2.0 | macOS arm64 laptop, Docker 29.4.3 | 28 | 140 |
 
-The runs are separate datasets, not one pooled sample. No main-study run is present yet.
+| Folder under runs/main/ | Protocol | Machine | Valid trials | Requests (valid trials) |
+|---|---|---|---:|---:|
+| 20261022T190115Z-b15df2 | 2.0 | macOS arm64 laptop, Docker 29.4.3 | 139 of 140 | 695 |
+
+The runs are separate datasets, not one pooled sample. The main run has one invalid
+trial (T0125): two log lines written at the same moment by two server threads were
+joined on one line, so the log file could not be parsed. It is excluded and reported,
+not replaced (see docs/RESULTS_GUIDE.md).
 
 **Why protocol 2.0 exists.** Both 1.0 pilots gave identical results: every fault type
 was built to be visible to a fixed set of detectors, and healthy responses (max 43 ms)
@@ -170,15 +177,21 @@ runs/pilot/<run-id>/
 
 Do not edit raw evidence or its checksum manifest; the analyzer refuses changed evidence.
 
-## 8. Main collection (next step)
+## 8. Main collection
 
 ```text
 python lab.py collect --phase main --rounds 10 --operator "<who runs it>"
 ```
 
-10 rounds = 140 trials (70 healthy, 70 faulty). The expectations in
-`expectations/EXPECTED_RESULTS_v2.md` give their ranges for this size. Keep pilot and
-main data separate and do not edit the expectations after collection.
+10 rounds = 140 trials (70 healthy, 70 faulty), collected on 22.10.2026 as
+`runs/main/20261022T190115Z-b15df2`. The expectations in
+`expectations/EXPECTED_RESULTS_v2.md` give their ranges for this size and were not
+edited after collection.
+
+Known instrument defect for any future collection: the API writes a log line with
+`print`, and two threads writing at the same moment can join two JSON lines. A fix
+(write each line in one call under a lock) would be a new protocol version; it is
+not applied to the existing runs.
 
 ## 9. Troubleshooting
 

@@ -1,0 +1,7 @@
+condition,baseline,only_baseline_correct,only_condition_correct,mcnemar_exact_p
+container,http,40,8,3e-06
+logs,http,47,18,0.000422
+http+container,http,0,0,1.0
+http+logs,http,15,10,0.424356
+container+logs,http,27,18,0.232693
+http+container+logs,http,15,10,0.424356

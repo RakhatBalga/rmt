@@ -1,0 +1,37 @@
+[
+  {
+    "timestamp_utc": "2026-10-22T19:04:00.299468+00:00",
+    "status": 500,
+    "elapsed_ms": 55.748,
+    "body": "{\"error\": \"calculation failed\"}",
+    "transport_error": ""
+  },
+  {
+    "timestamp_utc": "2026-10-22T19:04:00.413330+00:00",
+    "status": 500,
+    "elapsed_ms": 12.334,
+    "body": "{\"error\": \"calculation failed\"}",
+    "transport_error": ""
+  },
+  {
+    "timestamp_utc": "2026-10-22T19:04:00.573983+00:00",
+    "status": 500,
+    "elapsed_ms": 56.258,
+    "body": "{\"error\": \"calculation failed\"}",
+    "transport_error": ""
+  },
+  {
+    "timestamp_utc": "2026-10-22T19:04:00.708516+00:00",
+    "status": 500,
+    "elapsed_ms": 29.479,
+    "body": "{\"error\": \"calculation failed\"}",
+    "transport_error": ""
+  },
+  {
+    "timestamp_utc": "2026-10-22T19:04:00.831680+00:00",
+    "status": 500,
+    "elapsed_ms": 18.097,
+    "body": "{\"error\": \"calculation failed\"}",
+    "transport_error": ""
+  }
+]

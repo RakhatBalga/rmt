@@ -1,0 +1,6 @@
+{"time": "2026-10-22T19:02:59.006544+00:00", "level": "INFO", "message": "API started"}
+{"time": "2026-10-22T19:02:59.068017+00:00", "level": "ERROR", "message": "Item calculation failed: ZeroDivisionError"}
+{"time": "2026-10-22T19:02:59.225814+00:00", "level": "ERROR", "message": "Item calculation failed: ZeroDivisionError"}
+{"time": "2026-10-22T19:02:59.370805+00:00", "level": "ERROR", "message": "Item calculation failed: ZeroDivisionError"}
+{"time": "2026-10-22T19:02:59.510372+00:00", "level": "ERROR", "message": "Item calculation failed: ZeroDivisionError"}
+{"time": "2026-10-22T19:02:59.629824+00:00", "level": "ERROR", "message": "Item calculation failed: ZeroDivisionError"}

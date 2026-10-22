@@ -1,0 +1,8 @@
+{"time": "2026-10-22T19:01:16.147151+00:00", "level": "INFO", "message": "API started"}
+{"time": "2026-10-22T19:01:16.227588+00:00", "level": "ERROR", "message": "Upstream cache timeout; served from fallback"}
+{"time": "2026-10-22T19:01:16.227634+00:00", "level": "ERROR", "message": "Audit write failed; item response still available"}
+{"time": "2026-10-22T19:01:16.375487+00:00", "level": "ERROR", "message": "Audit write failed; item response still available"}
+{"time": "2026-10-22T19:01:16.527290+00:00", "level": "ERROR", "message": "Upstream cache timeout; served from fallback"}
+{"time": "2026-10-22T19:01:16.527469+00:00", "level": "ERROR", "message": "Audit write failed; item response still available"}
+{"time": "2026-10-22T19:01:16.671104+00:00", "level": "ERROR", "message": "Audit write failed; item response still available"}
+{"time": "2026-10-22T19:01:16.791463+00:00", "level": "ERROR", "message": "Audit write failed; item response still available"}
